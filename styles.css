@@ -58,3 +58,17 @@ blockquote {
     margin: 50px 0;
     text-align: center;
 }
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
