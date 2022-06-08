@@ -1,0 +1,26 @@
+#header {}
+
+#header-img {}
+
+#nav-bar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+}
+
+.nav-link {}
+
+#video {}
+
+#form {}
+
+#email {}
+
+#submit {}
+
+@media (max-width:600px) {
+    #video {
+        display: flex;
+    }
+}
