@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Servey Form</h1>
+    <p id="description">description</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        <label for="number" id="number-label">Number</label>
+        <input type="number" name="number" id="number" min="2" max="15" placeholder="Enter Your Number">
+
+        <select name="Department" id="dropdown">
+            <option value="cs">Computer Science</option>
+            <option value="sw">Software Engineer</option>
+        </select>
+        <input type="radio" name="gender" id="male" value="Male">
+        <input type="radio" name="gender" id="female" value="Female">
+        <input type="checkbox" name="Courses" id="java" value="Java">
+        <input type="checkbox" name="Courses" id="js" value="Javascript">
+        <textarea name="Description" id="describtion" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+
+</html>
